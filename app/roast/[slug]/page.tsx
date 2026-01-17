@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { supabase } from '../../lib/supabaseClient';
+import { supabase } from '../../lib/SupabaseClient';
 import { motion, AnimatePresence } from 'framer-motion';
 
 type Roast = {

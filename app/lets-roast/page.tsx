@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { supabase } from '../lib/supabaseClient';
+import { supabase } from '../lib/SupabaseClient';
 import { generateSlug } from '../lib/generateSlug';
 import { motion, AnimatePresence } from 'framer-motion';
 import { TipLink } from '@tiplink/api';
