@@ -1,0 +1,61 @@
+.hero {
+  background: #fefefe;
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.heroText h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.heroText p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.creatureRow {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.creature {
+  width: 120px;
+  height: 180px;
+  position: relative;
+}
+
+.body {
+  background: #a8e6cf;
+  border-radius: 50% 50% 40% 40%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.eye {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brow {
+  width: 40px;
+  height: 4px;
+  background: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
